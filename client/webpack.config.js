@@ -12,7 +12,6 @@ module.exports = () => {
     entry: {
       main: './src/js/index.js',
       install: './src/js/install.js',
-      editor: './src/js/editor.js'
     },
     output: {
       filename: '[name].bundle.js',
@@ -21,6 +20,7 @@ module.exports = () => {
     plugins: [
       new HtmlWebpackPlugin({
         template: './index.html',
+        title: 'J.A.T.E.'
       }),
       new InjectManifest({
         swSrc: './src-sw.js',
@@ -34,8 +34,8 @@ module.exports = () => {
         description: 'Heaven Help Me',
         background_color: 'blue',
         theme_color: 'blue',
-        start_url: './',
-        publicPath: './',
+        start_url: '/',
+        publicPath: '/',
         icons: [
           {
             src: path.resolve('src/images/logo.png'),
