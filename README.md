@@ -6,4 +6,6 @@
 - Going into the package.json in the root folder, I added the scripts so that both the client and server would be activated at the same time.
 - Lastly was the js files in the client/src folder. Most of these files didn't need changing, but the database.js file and the install file both had to have some logic added.
 
-![link]()
+![link](https://intense-journey-56362.herokuapp.com/)
+
+![picture](./Screenshot.png)
