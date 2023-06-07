@@ -29,6 +29,9 @@
   },
   "devDependencies": {
     "concurrently": "^5.2.0",
-    "nodemon": "^2.0.4"
+    "nodemon": "^2.0.4",
+    "babel": "^6.23.0",
+    "babel-core": "6.26.3",
+    "babel-loader": "9.1.2"
   }
 }
